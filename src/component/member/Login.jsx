@@ -1,5 +1,6 @@
 import { useState } from "react";
-import '../../css/bootstrap.min.css';
+import { Button } from "react-bootstrap";
+// import '../../css/bootstrap.min.css';
 // import { Link } from "react-router-dom";
 // import styled, { css } from "styled-components";
 // import { useLocation } from "react-router-dom";
@@ -30,7 +31,7 @@ const Login = () => {
                                     <input className="form-control" value={user.password} name="password" type="password" onChange={handleChange} />
                                 </div>
                                 <div className="d-flex align-items-center justify-content-between mt-4 mb-0">
-                                    <button className="btn btn-primary" type="submit">Login</button>
+                                    <Button>Login</Button>
                                 </div>
                             </form>
                         </div>
