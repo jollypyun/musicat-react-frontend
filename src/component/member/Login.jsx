@@ -1,9 +1,5 @@
 import { useState } from "react";
 import { Button } from "react-bootstrap";
-// import '../../css/bootstrap.min.css';
-// import { Link } from "react-router-dom";
-// import styled, { css } from "styled-components";
-// import { useLocation } from "react-router-dom";
 
 
 const Login = () => {
