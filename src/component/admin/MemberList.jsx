@@ -1,11 +1,7 @@
-import MemberListForm from "./MemberListForm";
-import { useMemo } from "react";
+import { useState } from "react";
 
-const columns = useMemo(
-    () => [
-        {
-            accessor: 'NO',
-            Header: 'NO'
-        }
-    ],[]
-);
+const MemberList = () => {
+    
+};
+
+export default MemberList;
