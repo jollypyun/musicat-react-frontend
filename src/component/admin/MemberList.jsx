@@ -1,7 +1,11 @@
+import { useCallback } from "react";
 import { useState } from "react";
+import { getMemberLIst } from "../../api/adminMemberLIst";
 
 const MemberList = () => {
     const [datas, setDatas] = useState([]);
+    
+
     return(
         <>
             <table>
@@ -20,11 +24,10 @@ const MemberList = () => {
                         <tr>
                             <td>{row.no}</td>
                             <td>{row.email}</td>
-                            <td>{row.no}</td>
-                            <td>{row.no}</td>
-                            <td>{row.no}</td>
-                            <td>{row.no}</td>
-                            <td>{row.no}</td>
+                            <td>{row.grade}</td>
+                            <td>{row.regDate}</td>
+                            <td>{row.visits}</td>
+                            <td>{row.ban}</td>
                         </tr>
                     })}
                 </tbody>
