@@ -4,7 +4,9 @@ import { getMemberLIst } from "../../api/adminMemberLIst";
 
 const MemberList = () => {
     const [datas, setDatas] = useState([]);
-    
+    const getInitialMember = useCallback((data) => {
+
+    });
 
     return(
         <>
