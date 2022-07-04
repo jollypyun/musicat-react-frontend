@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button } from "react-bootstrap";
-
+import { Link } from "react-router-dom";
 
 const Login = () => {
     const [user, setUser] = useState({email: "", password: ""});
@@ -28,6 +28,11 @@ const Login = () => {
                                 </div>
                                 <div className="d-flex align-items-center justify-content-between mt-4 mb-0">
                                     <Button>Login</Button>
+                                </div>
+                                <div className="card-footer text-center py-3">
+                                    <div className="small">
+                                        <Link to='/join'>회원가입</Link>
+                                    </div>
                                 </div>
                             </form>
                         </div>
