@@ -3,7 +3,9 @@ import LoginRouter from './routes/LoginRouter';
 
 function App() {
   return (
-    <LoginRouter />
+    <>
+      <LoginRouter />
+    </>
   );
 }
 

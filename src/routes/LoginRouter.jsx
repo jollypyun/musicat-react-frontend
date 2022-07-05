@@ -6,8 +6,8 @@ const LoginRouter = () => {
     return (
         <Router>
             <Routes>
-                <Route exact path="/" component={Login} />
-                <Route exact path="/join" component={Join} />
+                <Route exact path="/" element={Login} />
+                <Route exact path="/join" element={Join} />
             </Routes>
         </Router>
     );
